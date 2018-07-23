@@ -15,6 +15,7 @@
 		731FCFD621061169008977C8 /* ALaCarteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731FCFD521061169008977C8 /* ALaCarteController.swift */; };
 		731FCFD82106138A008977C8 /* MonTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731FCFD72106138A008977C8 /* MonTabBarController.swift */; };
 		731FCFDB210613D5008977C8 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731FCFDA210613D5008977C8 /* Constantes.swift */; };
+		731FCFDD21061589008977C8 /* MonNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731FCFDC21061589008977C8 /* MonNavController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		731FCFD521061169008977C8 /* ALaCarteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarteController.swift; sourceTree = "<group>"; };
 		731FCFD72106138A008977C8 /* MonTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonTabBarController.swift; sourceTree = "<group>"; };
 		731FCFDA210613D5008977C8 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		731FCFDC21061589008977C8 /* MonNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonNavController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				731FCFD321061106008977C8 /* MenuController.swift */,
 				731FCFD521061169008977C8 /* ALaCarteController.swift */,
 				731FCFD72106138A008977C8 /* MonTabBarController.swift */,
+				731FCFDC21061589008977C8 /* MonNavController.swift */,
 			);
 			path = Controlleur;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			files = (
 				731FCFDB210613D5008977C8 /* Constantes.swift in Sources */,
 				731FCFD421061106008977C8 /* MenuController.swift in Sources */,
+				731FCFDD21061589008977C8 /* MonNavController.swift in Sources */,
 				731FCFBF21060E82008977C8 /* AppDelegate.swift in Sources */,
 				731FCFD82106138A008977C8 /* MonTabBarController.swift in Sources */,
 				731FCFD621061169008977C8 /* ALaCarteController.swift in Sources */,
