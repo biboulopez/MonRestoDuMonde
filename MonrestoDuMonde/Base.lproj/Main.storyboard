@@ -105,16 +105,16 @@
         <scene sceneID="xNh-ZX-YN5">
             <objects>
                 <tableViewController id="mj4-ZW-Pot" customClass="ALaCarteController" customModule="MonrestoDuMonde" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="oOP-cr-xbL">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="oOP-cr-xbL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PlatCell" rowHeight="191" id="PJd-Vi-cSr" customClass="PlatCell" customModule="MonrestoDuMonde" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PlatCell" rowHeight="191" id="PJd-Vi-cSr" customClass="PlatCell" customModule="MonrestoDuMonde" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="191"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="PJd-Vi-cSr" id="Vhm-JO-TWH">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="190.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="191"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nrP-ao-fBx">
@@ -135,6 +135,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
                                         <constraint firstAttribute="trailingMargin" secondItem="oLg-GT-05L" secondAttribute="trailing" id="5On-vc-BnW"/>
                                         <constraint firstItem="oLg-GT-05L" firstAttribute="centerY" secondItem="Vhm-JO-TWH" secondAttribute="centerY" id="LWl-eG-08s"/>
@@ -144,6 +145,7 @@
                                         <constraint firstItem="nrP-ao-fBx" firstAttribute="centerY" secondItem="Vhm-JO-TWH" secondAttribute="centerY" id="kls-oa-PIY"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <outlet property="descDuPlat" destination="oLg-GT-05L" id="k4U-ad-wr9"/>
                                     <outlet property="imageDuPlat" destination="nrP-ao-fBx" id="lwj-gD-Oaq"/>
