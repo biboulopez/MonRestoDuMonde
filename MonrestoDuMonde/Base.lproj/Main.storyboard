@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -34,7 +35,49 @@
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="188" height="171"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="29i-Wf-Lwi">
+                                                    <rect key="frame" x="8" y="63" width="172" height="100"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UcM-3f-za8">
+                                                            <rect key="frame" x="8" y="42" width="156" height="50"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="50" id="6qb-WS-YZF"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="UcM-3f-za8" secondAttribute="trailing" constant="8" id="FaF-LC-ohS"/>
+                                                        <constraint firstAttribute="bottom" secondItem="UcM-3f-za8" secondAttribute="bottom" constant="8" id="McK-0s-hBP"/>
+                                                        <constraint firstAttribute="height" constant="100" id="Myy-QY-7mh"/>
+                                                        <constraint firstItem="UcM-3f-za8" firstAttribute="leading" secondItem="29i-Wf-Lwi" secondAttribute="leading" constant="8" id="gkP-vU-Fd9"/>
+                                                    </constraints>
+                                                </view>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PRu-Ms-rGz">
+                                                    <rect key="frame" x="30" y="5" width="128" height="128"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="128" id="EpU-z6-qQy"/>
+                                                        <constraint firstAttribute="height" constant="128" id="fvo-wO-o2r"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
                                         </view>
+                                        <constraints>
+                                            <constraint firstItem="29i-Wf-Lwi" firstAttribute="leading" secondItem="BgU-vq-3K1" secondAttribute="leadingMargin" id="AdK-z8-bsW"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="29i-Wf-Lwi" secondAttribute="trailing" id="Ri0-HL-9wn"/>
+                                            <constraint firstItem="PRu-Ms-rGz" firstAttribute="top" secondItem="BgU-vq-3K1" secondAttribute="top" constant="5" id="V45-Fh-UFr"/>
+                                            <constraint firstItem="PRu-Ms-rGz" firstAttribute="centerX" secondItem="BgU-vq-3K1" secondAttribute="centerX" id="kpt-W4-v4i"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="29i-Wf-Lwi" secondAttribute="bottom" id="thK-fk-ung"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="imageDuMenu" destination="PRu-Ms-rGz" id="c6Y-hP-f6E"/>
+                                            <outlet property="nomDuMenu" destination="UcM-3f-za8" id="0WI-ix-d7M"/>
+                                            <outlet property="vue" destination="29i-Wf-Lwi" id="nkN-NC-CJC"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
