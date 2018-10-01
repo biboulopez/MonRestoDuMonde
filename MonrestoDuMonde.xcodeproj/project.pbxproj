@@ -21,6 +21,7 @@
 		73B9DE4821621284008610AD /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B9DE4721621284008610AD /* Enums.swift */; };
 		73B9DE4A21621531008610AD /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B9DE4921621531008610AD /* Menu.swift */; };
 		73B9DE4C2162172B008610AD /* LesPlats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B9DE4B2162172B008610AD /* LesPlats.swift */; };
+		73B9DE4E216254E9008610AD /* Degrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B9DE4D216254E9008610AD /* Degrade.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		73B9DE4721621284008610AD /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		73B9DE4921621531008610AD /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		73B9DE4B2162172B008610AD /* LesPlats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesPlats.swift; sourceTree = "<group>"; };
+		73B9DE4D216254E9008610AD /* Degrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Degrade.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				731FCFDE21061A1F008977C8 /* MenuCell.swift */,
+				73B9DE4D216254E9008610AD /* Degrade.swift */,
 			);
 			path = Vue;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				731FCFDB210613D5008977C8 /* Constantes.swift in Sources */,
 				731FCFD421061106008977C8 /* MenuController.swift in Sources */,
 				731FCFDD21061589008977C8 /* MonNavController.swift in Sources */,
+				73B9DE4E216254E9008610AD /* Degrade.swift in Sources */,
 				73B9DE4A21621531008610AD /* Menu.swift in Sources */,
 				731FCFBF21060E82008977C8 /* AppDelegate.swift in Sources */,
 				73B9DE4C2162172B008610AD /* LesPlats.swift in Sources */,

@@ -34,7 +34,7 @@ class MenuCell: UICollectionViewCell {
         nomDuMenu.font = FONT_DE_BASE
         nomDuMenu.adjustsFontSizeToFitWidth = true
         nomDuMenu.textAlignment = .center
-        
+        nomDuMenu.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1)        
     }
 
 
