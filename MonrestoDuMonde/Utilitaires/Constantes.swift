@@ -14,4 +14,11 @@ let GRIS_TRES_CLAIR = UIColor(red: 240/255, green: 240/255, blue: 240/255, alpha
 
 let FONT_DE_BASE = UIFont(name: "ChalkDuster", size: 20)
 
+let ITALIE = "Italien"
+let CHINE = "Chinois"
+let JAPON = "Japonais"
+let USA = "Américain"
+let MEXIQUE = "Mexicain"
+let ESPAGNE = "Espagnol"
+let SUISSE = "Suisse"
 
